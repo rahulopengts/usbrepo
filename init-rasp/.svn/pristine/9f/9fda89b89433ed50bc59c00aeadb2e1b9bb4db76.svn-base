@@ -1,0 +1,124 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          homeautoapp
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: homeautoapp Daemon
+### END INIT INFO
+# Author: Thomas Brettinger 
+
+# Do NOT "set -e"
+
+# PATH should only include /usr/* if it runs after the mountnfs.sh script
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+
+DESC="Open Home Automation Bus Daemon"
+NAME=homeautoapp
+DAEMON=/usr/bin/java
+PIDFILE=/home/pi/home_auto/java_rasp/$NAME.pid
+SCRIPTNAME=/etc/init.d/$NAME
+ECLIPSEHOME="/home/pi/home_auto/java_rasp";
+HTTPPORT=8080
+HTTPSPORT=8443
+TELNETPORT=5555
+# be sure you are adopting the user to your local OH user 
+RUN_AS=pi
+
+DAEMON_ARGS="-Djava.library.path=/usr/lib/jni -Dlogback.configurationFile=/home/pi/home_auto/java_rasp/config/logback.xml -cp /home/pi/home_auto/java_rasp/src:/home/pi/home_auto/java_rasp/jarfile/mqtt-client-0.4.1-20140524.040116-91.jar:/home/pi/home_auto/java_rasp/jarfile/jssc.jar:/usr/share/java/RXTXcomm.jar:/home/pi/home_auto/java_rasp/jarfile/ch.qos.logback.classic_1.0.7.v20121108-1250.jar:/home/pi/home_auto/java_rasp/jarfile/ch.qos.logback.core_1.0.7.v20121108-1250.jar:/home/pi/home_auto/java_rasp/jarfile/ch.qos.logback.slf4j_1.0.7.v20121108-1250.jar:/home/pi/home_auto/java_rasp/jarfile/org.slf4j.api_1.7.2.v20121108-1250.jar:/home/pi/home_auto/java_rasp/jarfile/org.slf4j.log4j_1.7.2.v20130115-1340.jar:/home/pi/home_auto/java_rasp/config:. com.homeauto.mqtt.MessageBrokerService"
+
+# Exit if the package is not installed
+[ -x "$DAEMON" ] || exit 0
+
+# Read configuration variable file if it is present
+[ -r /etc/default/$NAME ] && . /etc/default/$NAME
+
+# Load the VERBOSE setting and other rcS variables
+   . /lib/init/vars.sh
+
+# Define LSB log_* functions.
+# Depend on lsb-base (>= 3.2-14) to ensure that this file is present
+# and status_of_proc is working.
+    . /lib/lsb/init-functions
+	
+#
+# Function that starts the daemon/service
+#
+do_start()
+{
+# Return
+#   0 if daemon has been started
+#   1 if daemon was already running
+#   2 if daemon could not be started
+start-stop-daemon --start --make-pidfile --pidfile $PIDFILE --chuid $RUN_AS --chdir $ECLIPSEHOME --exec $DAEMON -- $DAEMON_ARGS \
+#nohup /home/pi/home_auto/java_rasp/src/start.sh --quiet --background
+return 0
+}
+
+do_stop()
+{
+start-stop-daemon --stop --quiet --retry=TERM/30/KILL/5 --pidfile $PIDFILE --name $NAME
+RETVAL="$?"
+[ "$RETVAL" = 2 ] && return 2
+
+start-stop-daemon --stop --quiet --oknodo --retry=0/30/KILL/5 --exec $DAEMON
+[ "$?" = 2 ] && return 2
+rm -f $PIDFILE
+return "$RETVAL"
+}
+
+do_reload() {
+
+do_stop
+sleep 1
+do_start
+return 0
+}
+
+case "$1" in
+start)
+log_daemon_msg "Starting $DESC"
+do_start
+case "$?" in
+0|1) log_end_msg 0 ;;
+2) log_end_msg 1 ;;
+esac
+;;
+stop)
+log_daemon_msg "Stopping $DESC" 
+do_stop
+case "$?" in
+0|1) log_end_msg 0 ;;
+2) log_end_msg 1 ;;
+esac
+;;
+status)
+status_of_proc "$DAEMON" "$NAME" && exit 0 || exit $?
+;;
+#reload|force-reload)
+restart|force-reload)
+log_daemon_msg "Restarting $DESC" 
+do_stop
+case "$?" in
+0|1)
+do_start
+case "$?" in
+0) log_end_msg 0 ;;
+1) log_end_msg 1 ;; # Old process is still running
+*) log_end_msg 1 ;; # Failed to start
+esac
+;;
+*)
+
+log_end_msg 1
+;;
+esac
+;;
+*)
+
+echo "Usage: $SCRIPTNAME {start|stop|status|restart|force-reload}" >&2
+exit 3
+;;
+esac
+:

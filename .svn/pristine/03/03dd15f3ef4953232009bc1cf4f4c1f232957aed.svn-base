@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/raspberry/Latest/java_rasp/lib/mqtt-client-0.4.1-20140524.040116-91.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/raspberry/Latest/java_rasp/lib/winlib/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/raspberry/Latest/java_rasp/lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/openhab/install/server/plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/openhab/install/server/plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/openhab/install/server/plugins/ch.qos.logback.slf4j_1.0.7.v20121108-1250.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/openhab/install/server/plugins/org.slf4j.api_1.7.2.v20121108-1250.jar"/>
+	<classpathentry kind="lib" path="D:/Home_Auto/raspberry/Latest/java_rasp/lib/jssc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,394 @@
+2014-12-27 12:53:04.165 [DEBUG] [auto.mqtt.MessageBrokerService] - Starting Message Service Broker
+2014-12-27 12:53:04.255 [DEBUG] [auto.mqtt.MessageBrokerService] - Starting MQTT Listener Service...
+2014-12-27 12:53:04.312 [INFO ] [omeauto.mqtt.MessageSubscriber] - Successfully initialized MQTT Subscriber
+2014-12-27 12:53:04.330 [INFO ] [auto.mqtt.MessageBrokerService] - Started MQTT Listener Service...
+2014-12-27 12:53:04.337 [INFO ] [mqtt.MessageSubscriberRunnable] - Starting MQTT Subscriber...
+2014-12-27 12:53:05.025 [INFO ] [.h.serial.SerialUSBPortUtility] - Serial port connected to port 
+2014-12-27 12:53:05.067 [INFO ] [.h.serial.SerialUSBPortUtility] - Started Reading from Serial reader
+2014-12-27 12:53:05.069 [INFO ] [auto.mqtt.MessageBrokerService] - Start USB Listener Service Successful...
+2014-12-27 12:53:05.885 [INFO ] [omeauto.mqtt.MessageSubscriber] - Successfully initialized MQTT Subscriber and connected to broker tcp://localhost:1883
+2014-12-27 12:53:41.619 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 12:53:41.691 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 12:53:41.703 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:53:41.715 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 12:53:41.721 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 12:53:45.876 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 12:53:45.879 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 12:53:45.881 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:53:45.899 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 12:53:45.919 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 12:53:48.839 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 12:53:48.842 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 12:53:48.852 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:53:48.862 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 12:53:48.864 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 12:53:51.498 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 12:53:51.501 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 12:53:51.521 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:53:51.524 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 12:53:51.530 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 12:53:54.354 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 12:53:54.374 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 12:53:54.377 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:53:54.381 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 12:53:54.397 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 12:53:57.131 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 12:53:57.134 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 12:53:57.141 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:53:57.152 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 12:53:57.155 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 12:55:03.318 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 12:55:03.321 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 12:55:03.335 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:55:03.341 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 12:55:03.364 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 12:56:03.703 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 12:56:03.717 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 12:56:03.720 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:56:03.728 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 12:56:03.730 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 12:56:06.304 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 12:56:06.311 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 12:56:06.320 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 12:56:06.322 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 12:56:06.338 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:06:00.049 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:06:00.052 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:06:00.054 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:00.071 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:06:00.080 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:06:05.885 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:06:05.894 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:06:05.897 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:05.899 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:06:05.901 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:06:13.879 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 13:06:13.882 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 13:06:13.883 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:13.897 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 13:06:13.909 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 13:06:18.317 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 13:06:18.320 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 13:06:18.323 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:18.330 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 13:06:18.335 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 13:06:23.058 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:06:23.061 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:06:23.063 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:23.068 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:06:23.070 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:06:28.810 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:06:28.813 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:06:28.816 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:28.825 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:06:28.827 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:06:45.188 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:06:45.191 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:06:45.193 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:45.196 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:06:45.210 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:06:51.110 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:06:51.125 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:06:51.135 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:51.147 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:06:51.150 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:06:52.786 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:06:52.791 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:06:52.803 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:52.815 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:06:52.819 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:06:55.907 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:06:55.910 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:06:55.921 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:55.924 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:06:55.932 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:06:57.197 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:06:57.200 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:06:57.203 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:57.211 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:06:57.217 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:06:58.995 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:06:59.007 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:06:59.037 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:06:59.039 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:06:59.041 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:07:03.842 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:07:03.845 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:07:03.852 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:07:03.854 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:07:03.856 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:07:11.497 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 13:07:11.501 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 13:07:11.502 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:07:11.530 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 13:07:11.532 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 13:07:15.128 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 13:07:15.131 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 13:07:15.147 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:07:15.150 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 13:07:15.152 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 13:07:34.997 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:07:35.000 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:07:35.003 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:07:35.005 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:07:35.015 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:17:18.606 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 13:17:18.611 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 13:17:18.613 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:18.615 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 13:17:18.620 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 13:17:23.887 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 13:17:23.890 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 13:17:23.897 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:23.899 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 13:17:23.901 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 13:17:28.837 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 13:17:28.840 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 13:17:28.842 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:28.854 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 13:17:28.856 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 13:17:31.773 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 13:17:31.778 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 13:17:31.791 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:31.793 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 13:17:31.795 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 13:17:42.169 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 13:17:42.172 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 13:17:42.187 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:42.197 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 13:17:42.199 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 13:17:53.009 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 13:17:53.036 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 13:17:53.048 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:53.057 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 13:17:53.062 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 13:17:58.788 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 13:17:58.792 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 13:17:58.794 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:17:58.817 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 13:17:58.830 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 13:18:05.678 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 13:18:05.681 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 13:18:05.683 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:18:05.698 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 13:18:05.700 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 13:53:14.374 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 13:53:14.383 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 13:53:14.386 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:53:14.388 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 13:53:14.390 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 13:53:21.659 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 13:53:21.662 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 13:53:21.665 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:53:21.672 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 13:53:21.681 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 13:53:26.870 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:53:26.873 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:53:26.877 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:53:26.882 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:53:26.884 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:54:04.462 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:54:04.477 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:54:04.489 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:54:04.492 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:54:04.500 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:54:12.175 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:54:12.182 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:54:12.184 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:54:12.193 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:54:12.197 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:55:10.188 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:55:10.191 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:55:10.207 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:55:10.209 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:55:10.211 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 13:55:27.882 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 13:55:27.884 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 13:55:27.886 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:55:27.894 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 13:55:27.896 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 13:58:05.591 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 13:58:05.599 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 13:58:05.604 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:58:05.606 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 13:58:05.609 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 13:58:11.812 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 13:58:11.815 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 13:58:11.827 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:58:11.829 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 13:58:11.831 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 13:58:22.874 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 13:58:22.885 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 13:58:22.929 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 13:58:22.931 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 13:58:22.932 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 14:56:25.350 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 14:56:25.353 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 14:56:25.366 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 14:56:25.369 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 14:56:25.381 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 14:56:29.150 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 14:56:29.153 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 14:56:29.156 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 14:56:29.166 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 14:56:29.169 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 14:56:33.033 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 14:56:33.044 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 14:56:33.055 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 14:56:33.064 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 14:56:33.077 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 14:56:36.936 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 14:56:36.940 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 14:56:36.942 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 14:56:36.944 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 14:56:36.947 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 15:16:42.857 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 15:16:42.861 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 15:16:42.877 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:16:42.879 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 15:16:42.881 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 15:16:48.188 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 15:16:48.191 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 15:16:48.195 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:16:48.197 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 15:16:48.199 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 15:16:50.715 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 15:16:50.718 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 15:16:50.731 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:16:50.734 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 15:16:50.741 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 15:16:55.825 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 15:16:55.829 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 15:16:55.842 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:16:55.844 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 15:16:55.853 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 15:16:58.157 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 15:16:58.160 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 15:16:58.162 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:16:58.192 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 15:16:58.194 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 15:17:01.031 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 15:17:01.033 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 15:17:01.044 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:01.046 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 15:17:01.051 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 15:17:11.467 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 15:17:11.469 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 15:17:11.477 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:11.479 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 15:17:11.481 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 15:17:16.605 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 15:17:16.614 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 15:17:16.618 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:17.494 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 15:17:17.496 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 15:17:21.467 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 15:17:21.470 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 15:17:21.477 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:21.493 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 15:17:21.496 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 15:17:25.968 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 15:17:25.971 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 15:17:25.973 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:25.989 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 15:17:25.991 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 15:17:32.881 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 15:17:32.884 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 15:17:32.886 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:32.895 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 15:17:32.904 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 15:17:35.836 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 15:17:35.852 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 15:17:35.861 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 15:17:35.868 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 15:17:35.870 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port
+2014-12-27 19:40:36.354 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 19:40:36.365 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 19:40:36.377 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 19:40:36.379 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 19:40:36.387 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 19:44:24.910 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 19:44:24.913 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 19:44:24.915 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 19:44:24.929 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 19:44:24.944 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 19:44:33.609 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 19:44:33.630 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 19:44:33.633 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 19:44:33.635 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 19:44:33.637 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 19:44:43.553 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 19:44:43.580 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 19:44:43.587 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 19:44:43.589 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 19:44:43.597 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 20:00:21.583 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 20:00:21.586 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 20:00:21.593 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:00:22.419 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 20:00:22.420 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 20:00:29.346 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 20:00:29.354 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 20:00:29.357 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:00:29.359 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 20:00:29.361 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 20:00:39.024 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 20:00:39.043 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 20:00:39.046 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:00:39.050 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 20:00:39.059 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 20:00:44.333 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 20:00:44.336 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 20:00:44.348 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:00:44.351 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 20:00:44.357 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 20:27:20.990 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 20:27:20.993 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 20:27:21.000 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:27:21.002 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 20:27:21.007 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 20:27:25.291 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 20:27:25.294 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 20:27:25.296 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:27:25.299 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 20:27:25.302 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 20:27:31.866 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 20:27:31.869 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 20:27:31.886 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:27:31.888 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 20:27:31.890 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 20:27:45.044 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 20:27:45.048 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 20:27:45.053 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 20:27:45.066 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 20:27:45.069 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 22:01:50.798 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG1
+2014-12-27 22:01:50.801 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG1
+2014-12-27 22:01:50.808 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 22:01:50.811 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG1
+2014-12-27 22:01:50.820 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG1 and sent to USB port
+2014-12-27 22:01:54.219 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG1
+2014-12-27 22:01:54.222 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG1
+2014-12-27 22:01:54.224 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 22:01:54.235 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG1
+2014-12-27 22:01:54.248 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG1 and sent to USB port
+2014-12-27 22:02:18.177 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 001LG0
+2014-12-27 22:02:18.185 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 1001LG0
+2014-12-27 22:02:18.189 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 22:02:18.194 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 1001LG0
+2014-12-27 22:02:18.205 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 1001LG0 and sent to USB port
+2014-12-27 22:02:23.211 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 002LG0
+2014-12-27 22:02:23.219 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 2002LG0
+2014-12-27 22:02:23.224 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 22:02:23.226 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 2002LG0
+2014-12-27 22:02:23.232 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 2002LG0 and sent to USB port
+2014-12-27 22:10:27.962 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG1
+2014-12-27 22:10:27.965 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG1
+2014-12-27 22:10:27.969 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 22:10:27.986 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG1
+2014-12-27 22:10:27.989 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG1 and sent to USB port
+2014-12-27 22:10:42.840 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message arrived as payload 003LG0
+2014-12-27 22:10:42.843 [DEBUG] [m.homeauto.serial.SerialWriter] - Sending message over serial port as 0003LG0
+2014-12-27 22:10:42.852 [DEBUG] [m.homeauto.serial.SerialWriter] - Message written successfully to Serial port
+2014-12-27 22:10:42.854 [DEBUG] [.h.serial.SerialUSBPortUtility] - Send data over serial port. Message sent is 0003LG0
+2014-12-27 22:10:42.857 [DEBUG] [omeauto.mqtt.MessageSubscriber] - Message formatted to 0003LG0 and sent to USB port

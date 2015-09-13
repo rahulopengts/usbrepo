@@ -1,0 +1,54 @@
+
+-------For Start At Init
+
+sudo chown -R pi:pi /home/pi/home_auto/openHAB
+sudo update-rc.d openhab start 90 2 3 4 5 . stop 70 0 1 6 .
+
+
+sudo update-rc.d mosquitto start 20 2 3 4 5 . stop 50 0 1 6 .
+sudo update-rc.d homeautoapp start 90 2 3 4 5 . stop 20 0 1 6 .
+
+---------------------STATIC IP FOR RASPBERRY--------------
+http://www.raspberrypi.org/forums/viewtopic.php?f=91&t=22660
+This worked for me without setting the default to static
+
+/etc/network/interfaces:
+
+auto lo
+
+iface lo inet loopback
+
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+
+iface wlan0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+
+iface home inet static
+address 192.168.38.18
+netmask 255.255.255.0
+gateway 192.168.38.7
+
+iface default inet dhcp
+
+
+and /etc/wpa_supplicant/wpa_supplicant.conf
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+ssid="not telling"
+scan_ssid=1
+psk="not telling"
+key_mgmt=WPA-PSK
+id_str="home"
+priority=15
+}
+
+The key to it is the id_str option in the wpa_supplicant.conf file. This refers back to the home interface in the interfaces file. 
+
+Oddly, this does not allow the ethernet and the wireless interfaces both to be up. If you plug in the ethernet, wlan0 goes down. This is fine for me - I will only use the ethernet if the wireless gives problems.
+
+---------------------STATIC IP FOR RASPBERRY END--------------
